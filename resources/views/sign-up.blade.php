@@ -9,123 +9,57 @@
 </head>
 <body>
 
-    <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
-        <form>
-          <div class="grid grid-cols-2 gap-4">
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
-                block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput123"
-                aria-describedby="emailHelp123" placeholder="First name">
+    <div class="bg-grey-lighter min-h-screen flex flex-col shadow-xl shadow-black">
+        <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+            <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+                <h1 class="mb-8 text-3xl text-center">Sign up</h1>
+                <input 
+                    type="text"
+                    class="block border border-grey-light w-full p-3 rounded mb-4"
+                    name="fullname"
+                    placeholder="Full Name" />
+
+                <input 
+                    type="text"
+                    class="block border border-grey-light w-full p-3 rounded mb-4"
+                    name="email"
+                    placeholder="Email" />
+
+                <input 
+                    type="password"
+                    class="block border border-grey-light w-full p-3 rounded mb-4"
+                    name="password"
+                    placeholder="Password" />
+                <input 
+                    type="password"
+                    class="block border border-grey-light w-full p-3 rounded mb-4"
+                    name="confirm_password"
+                    placeholder="Confirm Password" />
+
+                <button
+                    type="submit"
+                    class="w-full text-center py-3 rounded bg-green bg-blue-700 text-white hover:bg-green-400 focus:outline-none my-1"
+                >Create Account</button>
+
+                <div class="text-center text-sm text-grey-dark mt-4">
+                    By signing up, you agree to the 
+                    <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                        Terms of Service
+                    </a> and 
+                    <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                        Privacy Policy
+                    </a>
+                </div>
             </div>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control
-                block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124"
-                aria-describedby="emailHelp124" placeholder="Last name">
+
+            <div class="text-grey-dark mt-6">
+                Already have an account? 
+                <a class="no-underline border-b border-blue text-blue" href="{{ route('sign_in') }}">
+                    Log in
+                </a>.
             </div>
-          </div>
-          <div class="form-group mb-6">
-            <input type="email" class="form-control block
-              w-full
-              px-3
-              py-1.5
-              text-base
-              font-normal
-              text-gray-700
-              bg-white bg-clip-padding
-              border border-solid border-gray-300
-              rounded
-              transition
-              ease-in-out
-              m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput125"
-              placeholder="Email address">
-          </div>
-          <div class="form-group mb-6">
-            <input type="password" class="form-control block
-              w-full
-              px-3
-              py-1.5
-              text-base
-              font-normal
-              text-gray-700
-              bg-white bg-clip-padding
-              border border-solid border-gray-300
-              rounded
-              transition
-              ease-in-out
-              m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput126"
-              placeholder="Password">
-          </div>
-          <div class="form-group mb-6">
-            <input type="password" class="form-control block
-              w-full
-              px-3
-              py-1.5
-              text-base
-              font-normal
-              text-gray-700
-              bg-white bg-clip-padding
-              border border-solid border-gray-300
-              rounded
-              transition
-              ease-in-out
-              m-0
-              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput126"
-              placeholder="Confirm Password">
-          </div>
-          <div class="form-group form-check text-center mb-6">
-            <input type="checkbox"
-              class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-              id="exampleCheck25" checked>
-            <label class="form-check-label inline-block text-gray-800" for="exampleCheck25">Subscribe to our newsletter</label>
-          </div>
-          <button type="submit" class="
-            w-full
-            px-6
-            py-2.5
-            bg-blue-600
-            text-white
-            font-medium
-            text-xs
-            leading-tight
-            uppercase
-            rounded
-            shadow-md
-            hover:bg-blue-700 hover:shadow-lg
-            focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-            active:bg-blue-800 active:shadow-lg
-            transition
-            duration-150
-            ease-in-out">Sign up</button>
-        </form>
-      </div>
+        </div>
+    </div>
 
 </body>
 </html>

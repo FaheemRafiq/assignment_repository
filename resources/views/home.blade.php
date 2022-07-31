@@ -41,7 +41,7 @@
 
     <div class="relative shadow-2xl shadow-[#D5CCC3]">
       <img src="/img/familymart_view.jpg" class="bg-local overflow-scroll" alt="Sea Image">
-      <h1 class="absolute text-5xl text-black font-bold cursor-auto hidden md:flex trasition duration-300 hover:scale-105 top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <h1 class="absolute text-5xl text-white font-bold cursor-auto hidden md:flex trasition duration-300 hover:scale-105 top-[80%] left-1/2 -translate-x-1/2 -translate-y-1/2">
         The Best Family Mart</h1>
     </div>
     
