@@ -41,7 +41,7 @@
 
     <div class="relative shadow-2xl shadow-[#D5CCC3]">
       <img src="/img/familymart_view.jpg" class="bg-local overflow-scroll" alt="Sea Image">
-      <h1 class="absolute text-5xl text-black font-bold cursor-auto hidden md:flex trasition duration-300 hover:scale-105 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <h1 class="absolute text-5xl text-black font-bold cursor-auto hidden md:flex trasition duration-300 hover:scale-105 top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
         The Best Family Mart</h1>
     </div>
     
@@ -83,51 +83,51 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
             <a class="block relative h-48 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://picsum.photos/423/263?books">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://img.freepik.com/premium-vector/tv-plasma-isolate-white-background-modern-blank-lcd-tv-digital-screen-display-panel-large-mock-up-computer-monitor-illustration_167581-820.jpg">
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
-              <p class="mt-1">$18.40</p>
+              <h2 class="text-gray-900 title-font text-lg font-medium">LCD</h2>
+              <p class="mt-1">$543.40</p>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
             <a class="block relative h-48 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://picsum.photos/424/264?eggs">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://s3.envato.com/files/236056798/102817%20(6).jpg">
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-              <p class="mt-1">$16.00</p>
+              <h2 class="text-gray-900 title-font text-lg font-medium">Books</h2>
+              <p class="mt-1">$1.50</p>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
             <a class="block relative h-48 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://picsum.photos/425/265?soap">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://thumbs.dreamstime.com/b/assorted-kinds-breads-white-background-11570208.jpg">
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
-              <p class="mt-1">$21.15</p>
+              <h2 class="text-gray-900 title-font text-lg font-medium">Breds</h2>
+              <p class="mt-1">$1.15</p>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
             <a class="block relative h-48 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://picsum.photos/427/267?oil">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://img.freepik.com/premium-photo/collection-vegetables-isolated-white-background_44074-1573.jpg">
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
-              <p class="mt-1">$12.00</p>
+              <h2 class="text-gray-900 title-font text-lg font-medium">Vegitables</h2>
+              <p class="mt-1">$5.00</p>
             </div>
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
             <a class="block relative h-48 rounded overflow-hidden">
-              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://picsum.photos/428/268?Bakery">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://media.istockphoto.com/photos/balls-isolated-on-white-picture-id175683115">
             </a>
             <div class="mt-4">
               <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+              <h2 class="text-gray-900 title-font text-lg font-medium">Sports</h2>
               <p class="mt-1">$18.40</p>
             </div>
           </div>
@@ -143,10 +143,10 @@
           <div class="flex flex-wrap -m-4">
             <div class="p-4 md:w-1/3 hover:shadow-lg hover:scale-105 transition duration-300">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://picsum.photos/720/400?water" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://static-01.daraz.pk/other/shop/02ffa3a66f8d8d07378f9a5ae551c818.jpeg" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Oil & Ghee</h1>
                   <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <div class="flex items-center flex-wrap ">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
@@ -172,10 +172,10 @@
             </div>
             <div class="p-4 md:w-1/3 hover:shadow-lg hover:scale-105 transition duration-300">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://picsum.photos/720/401?earth" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://previews.123rf.com/images/sbhaumik/sbhaumik1612/sbhaumik161200013/67390398-cricket-bat-and-ball-on-isolated-white-background.jpg" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Bat & Ball</h1>
                   <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <div class="flex items-center flex-wrap">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
@@ -201,10 +201,10 @@
             </div>
             <div class="p-4 md:w-1/3 hover:shadow-lg hover:scale-105 transition duration-300">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://picsum.photos/720/402?flair" alt="blog">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://st3.depositphotos.com/1001735/13183/i/450/depositphotos_131835546-stock-photo-red-professional-chainsaw.jpg" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Cutter</h1>
                   <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                   <div class="flex items-center flex-wrap ">
                     <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
