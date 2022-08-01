@@ -78,7 +78,7 @@
             </h1>
             <p class="mb-8 leading-relaxed">“Sometimes, when it’s going badly, she wonders if what she believes to be a love of the written word is really just a fetish for stationery. The true writer, the born writer, will scribble words on scraps of litter, the back of a bus tickets, on the wall of a cell. Emma is lost on anything less than 120gsm.”
                 ― <span class="font-bold">  David Nicholls</span>, One Day    <div class="flex justify-center">
-                <button class="ml-4 inline-flex text-white transition duration-200 hover:scale-105 bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg">
+                <button class="ml-4 inline-flex text-white transition duration-200 hover:scale-110 bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-500 rounded text-lg">
                     Go To Page
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-center"  fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="https://www.fermoylens.ie/wp-content/uploads/2019/07/stationary-2.jpg">
+            <img class="object-cover object-center rounded transition duration-300 hover:scale-105" alt="hero" src="https://www.fermoylens.ie/wp-content/uploads/2019/07/stationary-2.jpg">
           </div>
         </div>
       </section>
@@ -97,7 +97,7 @@
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://thumbs.dreamstime.com/b/makeup-brush-cosmetics-set-white-background-isolated-decorative-31765537.jpg">
+            <img class="object-cover object-center rounded transition duration-200 hover:scale-110" alt="hero" src="https://thumbs.dreamstime.com/b/makeup-brush-cosmetics-set-white-background-isolated-decorative-31765537.jpg">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">Cosmetic Items
@@ -134,7 +134,7 @@
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="https://st2.depositphotos.com/1593759/10666/i/950/depositphotos_106668996-stock-photo-bread-and-flour-products-isolated.jpg">
+            <img class="object-cover object-center rounded transition duration-200 hover:scale-110" alt="hero" src="https://st2.depositphotos.com/1593759/10666/i/950/depositphotos_106668996-stock-photo-bread-and-flour-products-isolated.jpg">
           </div>
         </div>
       </section>
@@ -144,7 +144,7 @@
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src="https://s3.envato.com/files/302545434/IMG_0359-Edit_20161019.jpg">
+            <img class="object-cover object-center rounded transition duration-200 hover:scale-110" alt="hero" src="https://s3.envato.com/files/302545434/IMG_0359-Edit_20161019.jpg">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">Biscuit Items
