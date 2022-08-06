@@ -34,10 +34,9 @@
                 <a href="{{ route('sign_in') }}"
                     class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Sign In</a>
             </nav>
-            <button href="{{ route('sign_up') }}"
-                class="inline-flex transition duration-300 hover:scale-110 rounded-md items-center bg-transparent border-2 border-white shadow-sm shadow-black font-bold py-1 px-3 hover:bg-gradient-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 focus:outline-none text-base mt-4 md:mt-0">Sign
-                Up
-            </button>
+            <a href="{{ route('sign_up') }}"
+                class="inline-flex transition duration-300 hover:scale-110 rounded-md items-center bg-transparent border-2 border-white shadow-sm shadow-black font-bold py-1 px-3 hover:bg-gradient-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 focus:outline-none text-base mt-4 md:mt-0">Sign Up
+        </a>
         </div>
     </header>
 
@@ -97,7 +96,7 @@
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded transition duration-200 hover:scale-110" alt="hero" src="https://thumbs.dreamstime.com/b/makeup-brush-cosmetics-set-white-background-isolated-decorative-31765537.jpg">
+            <img class="object-cover object-center rounded transition duration-125 hover:scale-110" alt="hero" src="https://thumbs.dreamstime.com/b/makeup-brush-cosmetics-set-white-background-isolated-decorative-31765537.jpg">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">Cosmetic Items

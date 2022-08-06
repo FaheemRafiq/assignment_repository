@@ -13,8 +13,7 @@
 
     {{-- Header Section --}}
 
-    <header
-        class="text-white body-font  bg-gradient-to-t from-[#1F2937] to-cyan-400">
+    <header class="text-white body-font  bg-gradient-to-t from-[#1F2937] to-cyan-400">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -36,10 +35,10 @@
                 <a href="{{ route('sign_in') }}"
                     class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Sign In</a>
             </nav>
-            <button href="{{ route('sign_up') }}"
+            <a href="{{ route('sign_up') }}"
                 class="inline-flex transition duration-300 hover:scale-110 rounded-md items-center bg-transparent border-2 border-white shadow-sm shadow-black font-bold py-1 px-3 hover:bg-gradient-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 focus:outline-none text-base mt-4 md:mt-0">Sign
                 Up
-            </button>
+            </a>
         </div>
     </header>
 

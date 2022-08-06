@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Home Page Route
-Route::get('/' , function(){
-    return view('home');
-})->name('home_page');
+Route::get('/' ,[UserController::class , 'index'])->name('home_page');
 
 // Service Page Route
 Route::get('/services' , function(){
@@ -37,8 +36,12 @@ Route::get('/contact' , function(){
 Route::get('/signin' , function(){
     return view('sign-in');
 })->name('sign_in');
+// Sign In user into Website
+Route::post('/signin',[UserController::class , 'signIn']);
 
 // Sign Up Page Route
 Route::get('/signup' , function(){
     return view('sign-up');
 })->name('sign_up');
+// RegisterCustomer
+Route::post('/register' , [UserController::class , 'register']);

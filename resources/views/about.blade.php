@@ -34,10 +34,10 @@
                 <a href="{{ route('sign_in') }}"
                     class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Sign In</a>
             </nav>
-            <button href="{{ route('sign_up') }}"
+            <a href="{{ route('sign_up') }}"
                 class="inline-flex transition duration-300 hover:scale-110 rounded-md items-center bg-transparent border-2 border-white shadow-sm shadow-black font-bold py-1 px-3 hover:bg-gradient-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 focus:outline-none text-base mt-4 md:mt-0">Sign
                 Up
-            </button>
+        </a>
         </div>
     </header>
 
