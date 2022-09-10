@@ -17,24 +17,25 @@
                 @csrf
                 <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
                     <h1 class="mb-8 text-3xl text-center">Sign up</h1>
+                    <span style="color: rgb(231, 40, 40)">
+                        @error('fullname')
+                            {{$message}}
+                        @enderror
+                    </span>
                     <input type="text" class="peer block border border-grey-light w-full p-3 rounded mb-4"
                         name="fullname" placeholder="Full Name" required value="{{old('fullname')}}" />
                         <span style="color: rgb(231, 40, 40)">
-                            @error('fullname')
-                                {{$message}}
-                            @enderror
-                        </span>
-                    <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
-                        placeholder="Email" value="{{old('email')}}" />
-                        <span style="color: rgb(231, 40, 40)">
                             @error('email')
-                                {{$message}}
-                            @enderror
-                            @if (session('email_error'))
-                                {{session('email_error')}}  
-                            @endif
+                            {{$message}}
+                        @enderror
+                        @if (session('email_error'))
+                            {{session('email_error')}}  
+                        @endif
                         </span>
-                    <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4"
+                      
+                    <input type="email" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
+                        placeholder="Email" value="{{old('email')}}" />
+                        <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4"
                         name="password" placeholder="Password" required />
                         <span style="color: rgb(231, 40, 40)">
                             @error('password')

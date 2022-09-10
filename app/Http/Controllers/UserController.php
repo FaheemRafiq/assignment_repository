@@ -2,15 +2,30 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\feedback;
 use Illuminate\Http\Request;
 use App\Models\UserData;
 use Illuminate\Support\Facades\DB;
-
 class UserController extends Controller
 {
     public function index()
     {
         return view('home');
+    }
+    public function feedback(Request $request){
+        $request->validate([
+            'email' => 'required|email',
+            'comment' => 'required'
+        ]);
+        $feedback = new feedback;
+        $feedback->fullname = $request['fullname'];
+        $feedback->email = $request['email'];
+        $feedback->comment = $request['comment'];
+        $feedback->save();
+
+        $request->session()->flash('Submit_success', 'Submitted Successfully!');
+        return redirect('/contact');
+
     }
     public function register(Request $request)
     {

@@ -31,6 +31,8 @@ Route::get('/about' , function(){
 Route::get('/contact' , function(){
     return view('contact');
 })->name('contact_page');
+// Received Messages 
+Route::post('/contact',[UserController::class , 'feedback']);
 
 // Sign In Page Route 
 Route::get('/signin' , function(){

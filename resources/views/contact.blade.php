@@ -7,6 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <title>Contact Us</title>
+    <style>
+        .alert {
+            padding: 20px;
+            background-color: rgb(5, 245, 129);
+            /* color: white; */
+        }
+
+        .closebtn {
+            margin-left: 15px;
+            color: white; 
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,12 +64,20 @@
         </div>
     </header>
 
+    {{-- Success Message --}}
+    @if (session('Submit_success'))
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Success!</strong> {{ session('Submit_success') }} .
+        </div>
+    @endif
     {{-- Map Section --}}
 
     <!-- a lot of the lines are just svg text, actual html is simple
 A sample contact us page form written with tailwind css
 Illustration from undraw.co by the amazing Katerina Limpitsouni
 -->
+
     <div class="bg-gray-800 text-gray-100 px-8 py-12 ">
         <div class="text-center w-full">
             <svg class="text-gray-100 h-8 mx-auto" fill=currentColor viewBox="0 0 150 29" version="1.1"
@@ -600,30 +630,42 @@ Illustration from undraw.co by the amazing Katerina Limpitsouni
                     </svg>
                 </div>
             </div>
-            <div class="">
+            <form action="{{ url('/contact') }}" method="POST">
+                @csrf
                 <div>
                     <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                    <input
+                    <input value="{{ old('fullname') }}"
                         class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text" placeholder="">
+                        type="text" placeholder="" name="fullname">
                 </div>
                 <div class="mt-8">
                     <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-                    <input
+                    <input required value="{{ old('email') }}"
                         class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                        type="text">
+                        type="email" name="email">
+                    <span style="color: red">
+                        @error('email')
+                            {{ $message }}
+                        @enderror
+                    </span>
                 </div>
                 <div class="mt-8">
                     <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-                    <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                    <textarea required name="comment"
+                        class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                    <span style="color: red">
+                        @error('comment')
+                            {{ $message }}
+                        @enderror
+                    </span>
                 </div>
                 <div class="mt-8">
-                    <button
+                    <button type="submit"
                         class="uppercase hover:bg-gradient-to-l transition duration-200 hover:scale-105 hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
                         Send Message
                     </button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 

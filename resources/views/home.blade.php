@@ -11,31 +11,9 @@
 </head>
 
 <body class="" >
-    {{-- Header Section --}}
-    <header class="text-white body-font bg-gradient-to-t from-[#006470] to-cyan-400">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-              <span class="ml-3 text-xl text-gray\
-              ">FamilyMart</span>
-          </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-              <a href="{{route("home_page")}}" class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Home</a>
-              <a href="{{route('service_page')}}" class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Services</a>
-              <a href="{{route('about_page')}}" class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">About</a>
-              <a href="{{route('contact_page')}}" class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Contact Us</a>
-              <a href="{{route('sign_in')}}" class="mr-5 cursor-pointer transition duration-300 hover:scale-125 hover:text-white">Sign In</a>
-          </nav>
-          <a href="{{route('sign_up')}}"
-              class="inline-flex transition duration-300 hover:scale-110 rounded-md items-center bg-transparent border-2 border-white shadow-sm shadow-black font-bold py-1 px-3 hover:bg-gradient-to-r hover:from-cyan-400 hover:via-cyan-500 hover:to-blue-400 focus:outline-none text-base mt-4 md:mt-0">Sign
-              Up
-        </a>
-      </div>
-  </header>
+    {{-- Header Component --}}
+
+    <x-header id="active"/>
 
     {{-- Background Image Section --}}
 
@@ -52,7 +30,7 @@
       <div class="container px-5 py-12 mx-auto">
         <div class="flex flex-wrap -m-4">
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-lg hover:scale-105 transition duration-300">
-            <a class="block relative h-48 rounded overflow-hidden">
+            <a href="" class="block relative h-48 rounded overflow-hidden">
               <img alt="ecommerce" class="object-fill object-center w-full h-full block" src="https://us.123rf.com/450wm/belchonock/belchonock2005/belchonock200500133/145953695-maternity-bag-with-disposable-diapers-and-child-s-accessories-on-white-background.jpg?ver=6https://babynestboutique.com/wp-content/uploads/2019/10/Portable-Diaper-Bag-Pink-Unicorn-250x250.jpeg">
             </a>
             <div class="mt-4">
